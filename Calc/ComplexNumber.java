@@ -18,27 +18,27 @@ public class ComplexNumber {
     public void add(double real, double imaginary){
         this.real += real;
         this.imaginary += imaginary;
-        System.out.println("The sum is: " + this.real + " + " + this.imaginary);
+        System.out.println("The sum is: " + this.real + " + " + this.imaginary + "i");
 
     }
     
     public void add(ComplexNumber complexNumber){
         this.real += complexNumber.real;
         this.imaginary += complexNumber.imaginary;
-        System.out.println("The sum is: " + this.real + " + " + this.imaginary);
+        System.out.println("The sum is: " + this.real + " + " + this.imaginary + "i");
     }
 
     public void subtract(double real, double imaginary){
         this.real -= real;
         this.imaginary -= imaginary;
-        System.out.println("The difference is: " + this.real + " + " + this.imaginary);
+        System.out.println("The difference is: " + this.real + " + " + this.imaginary + "i");
 
     }
     
     public void subtract(ComplexNumber complexNumber){
         this.real -= complexNumber.real;
         this.imaginary -= complexNumber.imaginary;
-        System.out.println("The difference is: " + this.real + " + " + this.imaginary);
+        System.out.println("The difference is: " + this.real + " + " + this.imaginary + "i");
 
     }
     
