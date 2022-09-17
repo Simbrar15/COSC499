@@ -29,6 +29,7 @@ public class ComplexNumber {
     }
 
     public void subtract(double real, double imaginary){
+        //make sure to fix whatever is causing incorrect subtractions
         this.real -= real;
         this.imaginary -= imaginary;
         System.out.println("The difference is: " + this.real + " + " + this.imaginary + "i");
